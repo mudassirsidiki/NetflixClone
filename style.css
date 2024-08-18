@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg.jpg);
+    height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+}
+
+.box {
+    height: 95vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    position: relative;
+    left: 24px;
+    bottom: 23px;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    top: 250px;
+    /* TO MAKE THE TEXT RESPONSIVE THROUGH INSPECT */
+    padding: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    /* TO MAKE THE TEXT RESPONSIVE THROUGH INSPECT */
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    /* TO MAKE THE TEXT RESPONSIVE THROUGH INSPECT */
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    /* TO MAKE THE TEXT RESPONSIVE THROUGH INSPECT */
+    text-align: center;
+}
+
+.separator {
+    height: 8px;
+    background-color: rgb(48, 45, 45);
+}
+
+.btn {
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.eng {
+    color: white;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 2px solid white;
+}
+
+.si-red {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+.start-red {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+.input {
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.first-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 70px 50px;
+    height: 50vh;
+}
+
+.first-section-text {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.first-section-text :nth-child(1) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-section-text :nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.first-section-text :nth-child(3) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.first-section-img img {
+    position: absolute;
+    z-index: 10;
+}
+
+.first-section-img video {
+    position: relative;
+    top: 19px;
+    width: 281px;
+    height: 254px;
+    left: 60px;
+}
+
+.separator2 {
+    height: 8px;
+    background-color: rgb(48, 45, 45);
+}
+
+.second-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 70px 50px;
+    height: 50vh;
+}
+
+.second-section-text {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.second-section-text :nth-child(1) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second-section-text :nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second-section-text :nth-child(3) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.separator3 {
+    height: 8px;
+    background-color: rgb(48, 45, 45);
+}
+
+.third-section {
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section-text {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 235px;
+}
+
+.third-section-text :nth-child(1) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.third-section-text :nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.third-section-text :nth-child(3) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.third-section-text :nth-child(4) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.third-section-text :nth-child(5) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourth-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.fourth-section-text {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-section-text :nth-child(1) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.fourth-section-text :nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourth-section-text :nth-child(3) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourth-section-text :nth-child(4) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fourth-section-img {
+    position: relative;
+    top: 65px;
+    right: 25px;
+}
+
+.separator4 {
+    height: 8px;
+    background-color: rgb(48, 45, 45);
+}
+
+.fifth-section {
+    height: 160vh;
+
+}
+
+.fifth-section> :first-child {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.faqbox1 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+
+.faqbox2 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.faqbox3 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.faqbox4 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.faqbox5 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.faqbox6 {
+    color: white;
+    background-color: #2d2d2d;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.separator5 {
+    height: 8px;
+    background-color: rgb(48, 45, 45);
+}
+
+.ready {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+.fifth-section faqbox {
+    margin: 10px;
+}
+
+.hero2 {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    /* TO MAKE THE TEXT RESPONSIVE THROUGH INSPECT */
+    padding: 10px;
+    text-align: center;
+}
+
+.input2 {
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.start-red2 {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+.faqbox1:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.faqbox2:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.faqbox3:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.faqbox4:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.faqbox5:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.faqbox6:hover {
+    background-color: rgb(29, 27, 27);
+    transition: all 1s ease-out;
+}
+
+.footer {
+    height: 40vh;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #000000;
+    color: #fff;
+    padding: 60px 0;
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 25px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ccc;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .logo {
+        position: relative;
+        left: -48px;
+    }
+
+    .eng {
+        color: white;
+        font-size: 10px;
+    }
+
+    .btn {
+        padding: 4px 7px;
+        position: relative;
+        bottom: -14px;
+        left: -5px;
+    }
+
+    .si-red {
+        background-color: red;
+        color: white;
+        font-size: 10px;
+    }
+
+    .pixel1{
+        display: flex;
+    }
+
+    .hero{
+        top: 155px;
+    }
+
+     .main{
+        height: 83vh;
+     }   
+
+    .first-section{
+        flex-wrap: wrap;
+        height: 40vh;
+    }
+
+    .first-section-text :nth-child(1) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    .first-section-text :nth-child(2) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .first-section-text :nth-child(3) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .first-section img{
+        width: 300px;
+        position: relative;
+        top: 40px;
+    }
+
+    .first-section-img video {
+        position: relative;
+        width: 220px;
+        height: 254px;
+        left: 38px;
+        top: -207px;
+    }
+
+    .second-section{
+        flex-wrap: wrap;
+        height: 40vh;
+    }
+
+    .second-section-text :nth-child(1) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    .second-section-text :nth-child(2) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .second-section-text :nth-child(3) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .second-section img{
+        width: 300px;
+        position: relative;
+        top: -20px;
+    }
+
+    .third-section-text{
+        position: relative;
+        right: 0px;
+    }
+
+    .third-section-text :nth-child(1) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    .third-section-text :nth-child(2) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    .third-section-text :nth-child(3) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .fourth-section{
+        flex-wrap: wrap;
+        height: 50vh;
+    }
+
+    .fourth-section img{
+        width: 300px;
+        position: relative;
+        top: -30px;
+    }
+
+    .fourth-section-text :nth-child(1) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .fourth-section-text :nth-child(2) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .fourth-section-text :nth-child(3) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .fourth-section-text :nth-child(4) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .fourth-section-text{
+        position: relative;
+        top: -32px;
+    }
+
+
+
+
+}
